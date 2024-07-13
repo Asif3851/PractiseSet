@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-30T12:31:49 IST" name="LoanDepartment" finished-at="2024-06-30T12:31:49 IST" duration-ms="268">
+    <groups>
+      <group name="smoke">
+        <method signature="Day4.ApiHomeLoan()[pri:0, instance:start.Day4@482bce4f]" name="ApiHomeLoan" class="start.Day4"/>
+        <method signature="Day4.MobileHomeLoan()[pri:0, instance:start.Day4@482bce4f]" name="MobileHomeLoan" class="start.Day4"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-06-30T12:31:49 IST" name="PersonalLoan" finished-at="2024-06-30T12:31:49 IST" duration-ms="166">
+      <class name="start.Merging_with_LowerClass">
+        <test-method signature="merge()[pri:0, instance:start.Merging_with_LowerClass@6bf0219d]" started-at="2024-06-30T12:31:49 IST" name="merge" finished-at="2024-06-30T12:31:49 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- merge -->
+      </class> <!-- start.Merging_with_LowerClass -->
+      <class name="start.Day4">
+        <test-method is-config="true" signature="Before()[pri:0, instance:start.Day4@482bce4f]" started-at="2024-06-30T12:31:49 IST" name="Before" finished-at="2024-06-30T12:31:49 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before -->
+        <test-method is-config="true" signature="Before1()[pri:0, instance:start.Day4@482bce4f]" started-at="2024-06-30T12:31:49 IST" name="Before1" finished-at="2024-06-30T12:31:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before1 -->
+        <test-method signature="ApiHomeLoan()[pri:0, instance:start.Day4@482bce4f]" started-at="2024-06-30T12:31:49 IST" name="ApiHomeLoan" finished-at="2024-06-30T12:31:49 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiHomeLoan -->
+        <test-method is-config="true" signature="Before1()[pri:0, instance:start.Day4@482bce4f]" started-at="2024-06-30T12:31:49 IST" name="Before1" finished-at="2024-06-30T12:31:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before1 -->
+        <test-method signature="MobileHomeLoan()[pri:0, instance:start.Day4@482bce4f]" started-at="2024-06-30T12:31:49 IST" name="MobileHomeLoan" finished-at="2024-06-30T12:31:49 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileHomeLoan -->
+        <test-method is-config="true" signature="Before1()[pri:0, instance:start.Day4@482bce4f]" started-at="2024-06-30T12:31:49 IST" name="Before1" finished-at="2024-06-30T12:31:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before1 -->
+        <test-method signature="WebHomeLoan()[pri:0, instance:start.Day4@482bce4f]" started-at="2024-06-30T12:31:49 IST" name="WebHomeLoan" finished-at="2024-06-30T12:31:49 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebHomeLoan -->
+        <test-method is-config="true" signature="After()[pri:0, instance:start.Day4@482bce4f]" started-at="2024-06-30T12:31:49 IST" name="After" finished-at="2024-06-30T12:31:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After -->
+      </class> <!-- start.Day4 -->
+      <class name="start.Run_codeusing_TestNG">
+        <test-method signature="Demo1()[pri:0, instance:start.Run_codeusing_TestNG@28975c28]" started-at="2024-06-30T12:31:49 IST" name="Demo1" finished-at="2024-06-30T12:31:49 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+        <test-method signature="Demo2()[pri:0, instance:start.Run_codeusing_TestNG@28975c28]" started-at="2024-06-30T12:31:49 IST" name="Demo2" finished-at="2024-06-30T12:31:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo2 -->
+      </class> <!-- start.Run_codeusing_TestNG -->
+    </test> <!-- PersonalLoan -->
+    <test started-at="2024-06-30T12:31:49 IST" name="LoginLoan" finished-at="2024-06-30T12:31:49 IST" duration-ms="16">
+      <class name="start.Day3">
+        <test-method signature="ApiLoginLoan()[pri:0, instance:start.Day3@15bbf42f]" started-at="2024-06-30T12:31:49 IST" name="ApiLoginLoan" finished-at="2024-06-30T12:31:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiLoginLoan -->
+        <test-method signature="WebLoginLoan()[pri:0, instance:start.Day3@15bbf42f]" started-at="2024-06-30T12:31:49 IST" name="WebLoginLoan" finished-at="2024-06-30T12:31:49 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginLoan -->
+        <test-method is-config="true" signature="Before()[pri:0, instance:start.Day3@15bbf42f]" started-at="2024-06-30T12:31:49 IST" name="Before" finished-at="2024-06-30T12:31:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before -->
+      </class> <!-- start.Day3 -->
+    </test> <!-- LoginLoan -->
+  </suite> <!-- LoanDepartment -->
+</testng-results>
